@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "dobleh",
+      "password": "maungapain"
+    },
+    {
+      "id": 2,
+      "username": "budi",
+      "password": "rahasia"
+    }
+  ],
+  "products": [
+    {
+      "name": "tamiya",
+      "image": "https://static.bmdstatic.com/pk/product/medium/5d5bad2b32af2.jpg",
+      "stok": 10,
+      "categoryId": 3,
+      "harga": 100000,
+      "deskripsi": "barang bekas saya",
+      "id": 2
+    }
+  ]
+}
