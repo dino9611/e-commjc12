@@ -3,12 +3,14 @@
     {
       "id": 1,
       "username": "dobleh",
-      "password": "maungapain"
+      "password": "maungapain",
+      "role":"admin"
     },
     {
       "id": 2,
       "username": "budi",
-      "password": "rahasia"
+      "password": "rahasia",
+      "role":"user"
     }
   ],
   "products": [
@@ -16,10 +18,46 @@
       "name": "tamiya",
       "image": "https://static.bmdstatic.com/pk/product/medium/5d5bad2b32af2.jpg",
       "stok": 10,
-      "categoryId": 3,
+      "kategoriId": 3,
       "harga": 100000,
       "deskripsi": "barang bekas saya",
       "id": 2
+    },
+    {
+      "name": "baju hawai",
+      "image": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/12/13/36425091/36425091_7edcb8f5-da4b-4c8e-854f-df795499962c_1200_1200.jpg",
+      "stok": 100,
+      "kategoriId": 1,
+      "harga": 150000,
+      "deskripsi": "baju hawai serasa di hawai tinggal di pantai",
+      "id": 3
+    },
+    {
+      "name": "celana hawai",
+      "image": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/10/13/4934396/4934396_808858dc-1b46-4a69-856c-3979d39d30eb_1181_1387.jpg",
+      "stok": 100,
+      "kategoriId": 1,
+      "harga": 100000,
+      "deskripsi": "celana kece ",
+      "id": 4
+    }
+  ],
+  "kategoris": [
+    {
+      "id": 1,
+      "nama": "pakaian"
+    },
+    {
+      "id": 2,
+      "nama": "elektronik"
+    },
+    {
+      "id": 3,
+      "nama": "mainan"
+    },
+    {
+      "id": 4,
+      "nama": "makanan"
     }
   ]
 }
