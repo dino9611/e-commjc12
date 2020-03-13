@@ -86,5 +86,26 @@
       "id": 4,
       "nama": "makanan"
     }
+  ],
+  "transactions": [
+    {
+      "status": "oncart",
+      "userId": 2,
+      "id": 1
+    }
+  ],
+  "transactiondetails": [
+    {
+      "transactionId": 1,
+      "productId": 4,
+      "qty": 1,
+      "id": 2
+    },
+    {
+      "transactionId": 1,
+      "productId": 3,
+      "qty": 2,
+      "id": 3
+    }
   ]
 }
